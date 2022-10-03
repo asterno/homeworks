@@ -1,18 +1,4 @@
-// function fib(n){
 
-    
-//     let c =  1
-//     let v =  1
-
-// for(i = 3; i <= n; i++ ) {
-    
-// c = v
-//  v = c
-// let b = c + v
-// console.log(b)
-
-// } 
-//     }
    
 
 
