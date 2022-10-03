@@ -6,7 +6,7 @@
 
 
 
-// fib(7)
+
 
 function fib() {
     let x = +prompt("Число Фибооначчи")
