@@ -1,0 +1,84 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.title * {
+    display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: baseline;
+list-style: none;
+margin: auto;
+}
+
+.difu {
+    padding-bottom: 20px;
+}
+
+.week {
+    font-size: 30px;
+}
+
+.sell {
+    width: 87%;
+  margin: 100px auto;
+    display: flex;
+justify-content: space-between;
+}
+
+.sell_candle * {
+    display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: baseline;
+list-style: none;
+margin: auto;
+}
+
+.sell_candle img {
+    height: 200px;
+    width: 300px;
+}
+
+.candle {
+    font-size: 24px;
+}
+
+.add {
+    background-color: black;
+    height:40px;
+    width:200px;
+    line-height:40px;
+    color: white;
+    
+}
+
+
+.round {
+    position: fixed;
+    width: 60px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    background-color: red;
+    right: 30px;
+    bottom: 200px;
+}
+
+
+.round2 {
+    position: fixed;
+    width: 60px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+
+    right: 30px;
+    bottom: 180px;
+}
+
+
+
+

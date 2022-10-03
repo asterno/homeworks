@@ -1,0 +1,42 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+
+form {
+    width: 230px;
+    height: 210px;
+    margin: auto;
+    border: 1px solid black;
+    margin-top: 100px;
+   padding: 30px;
+   border-radius: 10%;
+
+
+}
+
+input {
+    border: 0px;
+}
+
+textarea {
+    border: 0px;
+}
+
+hr{
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+
+
+button {
+   height: 30px ;
+   width: 80px;
+ background-color: aliceblue;
+ border: 1px solid blue;
+ color:gray;
+ line-height: 30px;
+}
