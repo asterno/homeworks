@@ -1,10 +1,12 @@
 
 function fib() {
     let x = +prompt("Число Фибооначчи")
+    let v = 1
+    let n = 1
     for (let i = 0; i < x; i++) {
-      let c = a + b
-   let   a = i - 1
-    let  b = i - 2
+      let c = v + n
+     v = n
+     n = c
    console.log(c)
     }
 
