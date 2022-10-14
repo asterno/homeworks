@@ -1,0 +1,69 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: #3a70b1;
+}
+
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+    font-size: 17px;
+}
+
+.form {
+    width: 500px;
+    border: 2px solid #fff;
+    padding: 15px;
+}
+
+
+.header{
+    display: flex;
+    justify-content: center;
+  
+}
+
+.input {
+width: 80%;
+height: 30px;
+}
+
+
+.button{
+    width: 20%;
+    height: 36px;
+    
+}
+
+.todo{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    font-weight: bold;
+}
+
+
+.actions button{
+   
+    width: 150px;
+    height: 30px;
+    border: 2px solid #fff;
+    color: #fff;
+}
+
+
+
+
+.change{
+
+    background-color: orange;
+ 
+}
+
+.delete{
+   
+    background-color: purple;
+}
