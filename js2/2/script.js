@@ -54,17 +54,23 @@ function stopf(){
 startt.addEventListener('click',timer)
 
 
-let one = (x) => {
- return function two(y){
-  let z = x * y
-  console.log(z)
+ let one = (x) => {
+  return function two(y){
+   let z = x * y
+   console.log(z)
+ }
+ two()
+ }
+
+ let c = one(+prompt('Число 1'))
+
+ c(+prompt('Число 2'))
+
+
+
+let arr = ['a','b','c','d','e','f']
+
+
+for(i=0;i<arr.length;i++){
+  console.log(arr[i].toUpperCase())
 }
-two()
-}
-
-let c = one(+prompt('Число 1'))
-
-c(+prompt('Число 2'))
-
-
-
