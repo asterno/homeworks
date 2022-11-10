@@ -25,7 +25,9 @@ rigth -= 16
       bottom-= 16
           block.style.top=`${bottom}px`
           setTimeout(moveBlock, 50);
+         
           }
+        
   }
 
 moveBlock()
